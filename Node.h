@@ -4,6 +4,9 @@ Date: 12/3/2019
 Node Class Header
 */
 
+#ifndef NODE_H
+#define NODE_H
+
 #include <iostream>
 #include <cstring>
 #include "Student.h"
@@ -38,3 +41,5 @@ class Node {
   Node* next;
 
 };
+
+#endif
