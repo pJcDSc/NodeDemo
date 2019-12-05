@@ -7,12 +7,14 @@ Node Class
 #include <iostream>
 #include <cstring>
 #include "Student.h"
+#include "Node.h"
 
 using namespace std;
 
 //Constructor
 Node::Node(Student* s) {
   value = s;
+  next = NULL;
 }
 
 //Set Value of Node
@@ -26,12 +28,12 @@ Student* Node::getStudent() {
 }
 
 //Set pointer to next node
-void setNext(Node* n) {
+void Node::setNext(Node* n) {
   next = n;
 }
 
 //Get pointer to next node
-Node* getNext() {
+Node* Node::getNext() {
   return next;
 }
 

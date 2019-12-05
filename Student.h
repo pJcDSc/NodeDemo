@@ -4,6 +4,9 @@ Date: 12/3/2019
 Student Class Header
 */
 
+#ifndef STUDENT_H
+#define STUDENT_H
+
 #include <iostream>
 #include <cstring>
 
@@ -39,3 +42,5 @@ class Student {
   float gpa;
 
 };
+
+#endif

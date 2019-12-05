@@ -6,6 +6,7 @@ Student Class header
 
 #include <iostream>
 #include <cstring>
+#include "Student.h"
 
 using namespace std;
 
@@ -39,6 +40,5 @@ float Student::getGpa() {
 
 //Destructor
 Student::~Student() {
-  delete firstName;
-  delete lastName;
+  //Nothing to delete (char could be constants)
 }
