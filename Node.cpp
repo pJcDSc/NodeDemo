@@ -37,6 +37,7 @@ Node* Node::getNext() {
   return next;
 }
 
+//Destructor
 Node::~Node() {
   delete value;
 }
